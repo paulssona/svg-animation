@@ -5,22 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Productly</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link type="text/css" rel="stylesheet" href="styles/normalize.css" />
-        <link rel="stylesheet" href="styles/styles.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+        <link rel="stylesheet" href="styles/styles.css"/>
     </head>
     <body class="site-structure"> 
-        <div class="form-base-layer">
-            <h1>Välkommen till Bonnie och Clydes 3-årskalas</h1>
+        <div class="form-base-layer" id="grad">
+            <h1 class="site-header animate__animated animate__jackInTheBox animate__slow animate__infinitely">Välkommen till Bonnie och Clydes 3-årskalas</h1>
             <div class="content-structure">
                 <div class="content-box">
                     <img class="images" src="images/Bonnie.jpg" alt="Bonnie" width="400px" height="282px">
-                    <h2>Bonnies Önskelista</h2>
-                    <ul>
-                        <li>Färsk tonfisk</li>
+                    <h2 class="content-header">Bonnies Önskelista</h2>
+                    <ul class="lists content-text">
+                        <li>Färsk tonfisk, 50 gram</li>
                         <li>Diverse borstar</li>
-                        <li>Katt-mynta</li>
+                        <li>Kattmynta</li>
                         <li>Leksaksmöss</li>
                         <li>Kattgodis</li>
                         <li>Lint rollers...</li>
@@ -28,18 +28,22 @@
                 </div>
                 <div class="content-box">
                     <img class="images" src="images/Clyde-crop.png" alt="Clyde" width="400px" height="282px">
-                    <h2>Clydes Önskelista</h2>
-                    <ul>
-                        <li>Färsk tonfisk</li>
-                        <li>Diverse borstar</li>
-                        <li>Katt-mynta</li>
+                    <h2 class="content-header">Clydes Önskelista</h2>
+                    <ul class="lists content-text">
+                        <li>Billigt torrfoder</li>
+                        <li>Ny laserpekare</li>
+                        <li>Kattmynta</li>
                         <li>Leksaksmöss</li>
-                        <li>Kattgodis</li>
-                        <li>Lint rollers...</li>
+                        <li>Kattvippor</li>
+                        <li>Skydd mot hems robotdammsugare</li>
                     </ul>
                 </div>
             </div>
-            <Button class="btn">Jag vill vara med och fira</Button>
+            <div class="btn-area">
+                <form action="https://fb.me/e/1u3dS0VJZ" target="_blank">
+                    <button class="btn" type="submit">Jag vill vara med och fira</button>
+                </form>     
+            </div>
         </div>
     </body>
 </html>    
