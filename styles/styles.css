@@ -73,9 +73,10 @@
     border:none;
     border-radius: 8px;
     margin-top: 25px;
-    background-color: blueviolet;
+    background-color: palevioletred;
     color: cornsilk;
     font-size: 32px;
+    margin-left: 30px;
 }
 @keyframes btnzoom {
     from {transform: scale(1);}
@@ -92,4 +93,11 @@
     padding-inline-start: 0px;
     list-style: none;
     text-align: center;
+}
+.envelope {
+    stroke-width: 10;   
+}
+.crown {
+    display:flex;
+    margin-left: 35px;
 }

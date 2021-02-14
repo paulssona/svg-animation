@@ -1,0 +1,4 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" id="crown">
+    <polyline points="80,35 100,70 140,70 160,35 130,50 120,15 110,50 80,35" stroke="grey" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="100,85 140,85" stroke="grey" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+ </svg>
